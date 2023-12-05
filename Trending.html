@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">   <!--Here under i am "calling the .js files i am using for different functions"-->
+<html lang="en">
 <script src="script.js"></script> 
 <script src="ReviewingSystem.js"></script>
-<head>        <!--And here under is the connection between this file and the .css file being created-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="QuippleCss.css">
     <title>
         Quipple
@@ -21,9 +23,12 @@
         </nav>
     </header>
     <main>
+        <h1>
+            Trending
+        </h1>
         <div class="story">
-            <h2>Story Title 1</h2>
-            <p>Your story content goes here.</p>
+            <h2>Hero, You took everything from me</h2>
+            <p>Alone the "monster" sat upon his throne</p>
             <div class="ratingContainer">
                 <button class="rateButton" onclick="Hide1()">Rate</button>
                 <div class="ratingOptions hidden">
@@ -75,7 +80,7 @@
         </div>
 
         <div class="story">
-            <h2>Story Title 2</h2>
+            <h2>I came for our final battle</h2>
             <p>Another short story content.</p>
             <div class="ratingContainer">
                 <button class="rateButton" onclick="Hide2()">Rate</button>
@@ -122,8 +127,14 @@
                     </div>
                     <button class="publishButton">Publish</button>
                 </div>
+            
+                
+
+                <!-- Your rating system input goes here -->
             </div>
         </div>
+
+        <!-- Add more stories as needed -->
     </main>
 </body>
 </html>

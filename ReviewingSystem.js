@@ -39,7 +39,7 @@ const reviewData = [
 ];
 
 // Specify your CSV file path
-const csvFilePath = '/VSC All Codes/RatingCollectionQuipple.csv';
+const csvFilePath = '/VSC All Codes/Quipple/RatingCollectionQuipple.csv';
 
 // Read existing data from CSV
 readCSV(csvFilePath)

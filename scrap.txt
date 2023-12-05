@@ -1,0 +1,22 @@
+const rateButton =document.querySelectorAll('.rateButton');
+
+rateButton.forEach(rateButton =>{
+    rateButton.addEventListener('click', function () {
+        console.log('pushed')
+        var rateButton = document.getElementById('rateButton');
+        var ratingOptions = document.getElementById('ratingOptions');
+        rateButton.classList.add('hidden');
+        ratingOptions.classList.remove('hidden');
+    });
+})
+
+const publish = document.querySelectorAll('.publishButton');
+
+publish.forEach(publish => {
+    publish.addEventListener('click', function () {
+        var ratingOptions = document.getElementById('ratingOptions');
+        ratingOptions.classList.add('hidden');
+        alert("Publishing your ratings!"); // Replace with your publish logic
+    });
+    
+});

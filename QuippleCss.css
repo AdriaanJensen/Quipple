@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 0;
+    text-align: left;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.story {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating input {
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 10px;
+    display: inline;
+}
+
+nav {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px; /* Add padding to the nav if needed */
+}
+
+nav a { 
+    color: white; 
+    padding: 12px; /* Adjust padding for a more button-like appearance */ 
+    text-decoration: none; 
+    text-align: center; 
+    display: inline-block; /* Make it a block element to control width */ 
+    background-color: transparent; /* Remove default link background color */ 
+    border: none; /* Remove border */ 
+    cursor: pointer; /* Add pointer cursor for interaction */ 
+    width: 120px;
+    box-sizing: border-box;
+} 
+
+nav a:hover { 
+    font-weight: bold;
+    color: #ddd;
+    width: 120px;
+}
+
+nav a + a {
+    margin-left: 0px;
+}
+
+nav h1 {
+    color: white;
+    margin: 0;
+    display: inline;
+}
+
+.hidden {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.ratingContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ratingOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.ratingOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
