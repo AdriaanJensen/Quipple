@@ -18,7 +18,7 @@ function Hide2(){
 
 const publish = document.querySelectorAll('.publishButton');
 
-publish.forEach(publish => {
+publish.forEach(publish => {   //Chatgpt
     publish.addEventListener('click', function () {
         var ratingOptions = document.getElementById('ratingOptions');
         ratingOptions.classList.add('hidden');
